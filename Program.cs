@@ -49,17 +49,27 @@
 // -3 -> нет
 // 7 -> нет
 
-Console.Write("Введи число ");
-int a = Convert.ToInt32(Console.ReadLine());
-if (a % 2 == 0) 
-{
-Console.Write("четное");
-}
-else
-{
-Console.Write("не четное");    
-}
+// Console.Write("c");
+// int a = Convert.ToInt32(Console.ReadLine());
+// if (a % 2 == 0) 
+// {
+// Console.Write("четное");
+// }
+// else
+// {
+// Console.Write("не четное");    
+// }
 
 // Задача 8: Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
 // 5 -> 2, 4
 // 8 -> 2, 4, 6, 8
+
+// Console.Write("Введи число ");
+// int a = Convert.ToInt32(Console.ReadLine());
+// int even = 0; // четное
+// while (even <= a) // цикл повторяется, пока четное <= введенному числу
+// {
+// Console.Write(even + " ");
+// even ++;
+// even ++; // костыль, ведь компилятор ругался на то, что нельзя делать +2
+// }
